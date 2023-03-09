@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #8c2499;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor_logo{
+    width: 100%;
+    margin-right: 10px ;
+}
+
+.navegacion{
+    display: flex;
+    margin-left: 10px;
+}
+
+.navegacion__li{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    list-style: none;
+}
+
+.navegacion__li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navegacion__li a:hover
+{
+    color: #08b9ff;
+}
+
+.logo_colegio{
+    height: 60px;
+    float: right;
+    margin-left: 5%;
+}
+
+.contenedor_crud{
+    display:flex;
+    margin-top: 10px; 
+}
+
+.contenedor_formulario{
+    width: 40%;
+}
+
+.contenedor_tabla{
+    position:absolute; top:0px; left: 900px;
+    width: 60%;
+    margin-top: 10px;
+}
+
+form{
+
+}
+
+.form_header{
+    padding: 10px;
+    margin: 0;
+}
+
+.contenedor_form_header{
+    background: #2978ad;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contenedor_form_body{
+    width: 80%;
+    background:#3f7da1;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contenedor_input{  
+    align-items: center;
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.contenedor_input input{
+    height: 25px;
+}
+
+.contenedor_input label{
+    text-align: left;
+    display: block;
+    color:white;
+}
+.contenedor_input input{
+  width: 100%;
+}
+
+.contenedor_input input[type="submit"]{
+    width: 45%;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+    align-items: center ;
+    margin: 20px 10px 30px 10px;
+}
+
+.tabla_datos{
+    color:white;
+    border: 2px solid black ;
+    width: 80%;
+    margin: 0 auto;
+    padding:0;
+    border-collapse: collapse;
+}
+
+.head_tabla_datos{
+    background: #2078a4;
+}
+
+.head_tabla_datos th{
+    padding: 5px;
+}
+
+.body_tabla_datos{
+    background:#4a81b7;
+}
+
+.body_tabla_datos td{
+    border: 1px solid white;
+    padding: 2px;
+}
+
+.tabla_opciones{
+    text-align: center;
+    font-size: 25px;
+}
+
+.tabla_opciones a{
+    text-decoration: none;
+}
+
+.contenedor_editar{
+    margin-top: 15px;
+}
+
+.contenedor_editar .contenedor_formulario{
+    position:absolute; top:70px; left:50px;
+    margin: 0 auto;
+}
+
+.contenedor_botones_editar{
+    display: flex;
+}
+
